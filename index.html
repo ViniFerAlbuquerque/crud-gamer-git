@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <img src="gamer.png" alt="foto do game">
+
+        <h1> O que você encontra e desenvolve com a gente: </h1>
+
+        <p> <span>Desenvolvimento cognitivo:</span> Os jogos podem ajudar a desenvolver habilidades como a atenção, a
+            memória, a
+            criatividade, o raciocínio lógico, a multitarefa e a cognição. <br>
+            <span>Desenvolvimento emocional:</span> Os jogos podem ajudar a desenvolver a inteligência emocional, pois
+            os jogadores
+            entram em contato com emoções como alegria e frustração <br>
+            <span>Melhoria da capacidade de resposta:</span> Os jogos podem ajudar a melhorar a capacidade de resposta
+            do jogador.
+            <br>
+            <span>Melhoria da sensibilidade ao contraste:</span> Jogar jogos de ação pode melhorar a sensibilidade ao
+            contraste, o
+            que é útil em situações de baixa visibilidade.
+        </p>
+        <p><span id="memory">Aprimoramento da memória:</span> Alguns jogos podem ajudar a aprimorar o hipocampo, a parte
+            do cérebro que é vital
+            para a memória. <br>
+            <span>Desenvolvimento do trabalho em equipe:</span> Os jogos podem ajudar a desenvolver o trabalho em
+            equipe, pois muitas atividades precisam ser feitas em conjunto. <br>
+            <span>Facilidade para aprender outro idioma:</span> Os jogos podem ajudar a facilitar a aprendizagem de
+            outro idioma. <br>
+            <span id="strength">Desenvolvimento físico:</span> Os jogos podem ajudar no desenvolvimento físico. <br>
+            <span>Desenvolvimento social e moral:</span> Os jogos podem ajudar no desenvolvimento social e moral.
+        </p>
+        <br>
+        <br>
+        <footer>
+            <button onclick="abrir()">Entrar em Contato</button>
+        </footer>
+    </div>
+
+    <form action="https://formsubmit.co/viniferalbuquerque@gmail.com" method="POST">
+        <input type="text" name="name" required placeholder="Nome">
+        <input type="email" name="email" required placeholder="Email">
+        <textarea type="text" name="duvida" placeholder="Sua dúvida aqui"></textarea>
+        <button type="submit">ENVIAR</button>
+        <button onclick="fechar()" type="button" class="voltar">Voltar</button>
+    </form>
+
+
+
+
+</body>
+<script>
+    function abrir() {
+        document.querySelector("form").style.opacity = 1
+        document.querySelector("div").style.opacity = 0.2
+    }
+
+    function fechar() {
+        document.querySelector("form").style.opacity = 0
+        document.querySelector("div").style.opacity = 1
+    }
+
+</script>
+
+</html>

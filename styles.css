@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: #01295E;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 35px;
+    text-transform: uppercase;
+    background-color: #40BB15;
+}
+
+p {
+    font-size: 24px;
+    margin: 30px;
+    color: #FFFFFF;
+}
+
+span {
+    color: #00ff10;
+}
+
+#memory {
+    color: #ff0;
+
+}
+
+#strength {
+    color: #ff0000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    height: 50px;
+    width: 352px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    display: block;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    height: 100px;
+    width: 352px;
+    margin-bottom: 20px;
+}
+
+form {
+    background: #FFFFFF;
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+button {
+    background: #40BB15;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 200px;
+    cursor: pointer;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+button:hover {
+    opacity: 0.8;
+    text-align: center;
+}
+
+.voltar {
+    background: gray;
+}
+
+div {
+    transition: opacity 1s;
+}
+
+footer {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    div {
+        background: #1111ff;
+        align-items: center;
+    }
+
+}   
+
+@media screen and (max-width: 300px) {
+    div, form    {
+        background: #a000ff;
+        align-items: center;
+    }
+
+}
