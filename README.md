@@ -10,6 +10,7 @@
 <img src="https://github.com/ViniFerAlbuquerque/crud-gamer-git/blob/master/assets/games-club-responsivo.png?raw=true" />
 
 
-https://viniferalbuquerque.github.io/crud-gamer-git/
+
+ [🔗Clique Aqui Para Acessar o Crud sobre Gamer!](https://viniferalbuquerque.github.io/crud-gamer-git/)
 
 
