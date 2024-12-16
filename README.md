@@ -11,6 +11,6 @@
 
 
 
- [🔗Clique Aqui Para Acessar o Crud sobre Gamer!](https://viniferalbuquerque.github.io/crud-gamer-git/)
+ [🔗Clique Aqui Para Acessar o Crud Gamer Club!](https://viniferalbuquerque.github.io/crud-gamer-git/target="_blank")
 
 
