@@ -8,6 +8,8 @@
 
 
 <img src="https://github.com/ViniFerAlbuquerque/crud-gamer-git/blob/master/assets/games-club-responsivo.png?raw=true" />
+<br>
+<img src="" />
 
 
 
