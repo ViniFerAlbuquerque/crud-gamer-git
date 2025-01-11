@@ -9,7 +9,7 @@
 
 <img src="https://github.com/ViniFerAlbuquerque/crud-gamer-git/blob/master/assets/games-club-responsivo.png?raw=true" />
 <br>
-<img src="" />
+<img src="https://raw.githubusercontent.com/ViniFerAlbuquerque/crud-gamer-git/a4232d607bd922f654688bb00a9243031d1d0e99/assets/Captura%20de%20Tela%20(17).png" />
 
 
 
